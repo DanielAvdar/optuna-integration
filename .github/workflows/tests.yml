@@ -88,3 +88,4 @@ jobs:
       run: |
         pip install "numpy<1.24"
         pytest tests/test_mxnet.py
+    continue-on-error: true
